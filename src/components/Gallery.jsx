@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
-import smartHireImg   from '@/src/images/smarthire.jpg';
-import glaucomaImg    from '@/src/images/glaucoma.png';
-import chefGurujiImg  from '@/src/images/chef-guruji.png';
+import smartHireImg   from '@/images/smarthire.jpg';
+import glaucomaImg    from '@/images/glaucoma.png';
+import chefGurujiImg  from '@/images/chef-guruji.png';
 
 
 export default function Gallery() {
