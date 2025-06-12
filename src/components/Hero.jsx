@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import face from '@/images/face.jpg'; // Adjust the path as necessary
 
 export default function Hero() {
   return (
@@ -9,7 +10,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          src="src/images/face.jpg"
+          src={face}
           alt="Viswa"
           className="w-44 h-44 rounded-lg object-cover shadow-lg"
         />

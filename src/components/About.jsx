@@ -1,8 +1,10 @@
+import about from '@/images/about.jpg';
+
 export default function About() {
   return (
     <section id="about" className="bg-gray-100 py-20 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <img src="src/images/about.jpg"
+        <img src={about}
              alt="About" className="rounded-lg shadow-lg"/>
         <div>
           <h2 className="text-4xl font-extrabold mb-4">About me</h2>
