@@ -1,8 +1,10 @@
+import face from '@/images/face.jpg'; // Adjust the path as necessary
+
 export default function Contact() {
   return (
     <section id="contact" className="py-20 px-6">
       <div className="max-w-xl mx-auto text-center">
-        <img src="src/images/face.jpg" alt="" className="w-20 h-20 mx-auto rounded-full mb-4" />
+        <img src={face} alt="" className="w-20 h-20 mx-auto rounded-full mb-4" />
         <h2 className="text-4xl font-extrabold mb-6">Contact Me</h2>
         <form
           className="space-y-6"
