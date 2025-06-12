@@ -1,23 +1,26 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
+import smartHireImg   from '@/src/images/smarthire.jpg';
+import glaucomaImg    from '@/src/images/glaucoma.png';
+import chefGurujiImg  from '@/src/images/chef-guruji.png';
 
 
 export default function Gallery() {
   const items = [
     {
       title: 'Smart Hire AI',
-      img: 'src/images/smarthire.jpg',
+      img: smartHireImg,
       blurb: 'React + Gemini AI platform with adaptive mock-interviews & analytics.',
     },
     {
       title: 'Glaucoma Detection',
-      img: 'src/images/glaucoma.png',
+      img: glaucomaImg,
       blurb: '94 %-precision CNN detecting glaucoma on retinal fundus images.',
     },
     {
       title: 'Chef Guruji',
-      img: 'src/images/chef-guruji.png',
+      img: chefGurujiImg,
       blurb: 'Full-stack web app for personalised meal plans & grocery lists.',
     },
   ];
