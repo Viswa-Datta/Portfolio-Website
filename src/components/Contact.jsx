@@ -35,7 +35,7 @@ export default function Contact() {
         <img src={face} alt="Avatar" className="w-20 h-20 mx-auto rounded-full mb-4" />
         <h2 className="text-4xl font-extrabold mb-6">Contact Me</h2>
 
-        {status === 'ok'  && <p className="mb-4 text-green-500">Message sent ✔</p>}
+        {status === 'ok'  && <p className="mb-4 text-green-500">Thank you for your message — I will respond shortly.</p>}
         {status === 'err' && <p className="mb-4 text-red-500">Something went wrong ✖</p>}
 
         <form onSubmit={handleSubmit} className="space-y-6">
