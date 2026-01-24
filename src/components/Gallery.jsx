@@ -17,7 +17,7 @@ export default function Gallery() {
       title: 'Glaucoma Detection',
       img: glaucomaImg,
       blurb: 'Deep learning system achieving 94% precision in detecting glaucoma from retinal images[cite: 37].',
-      link: 'https://ieeexplore.ieee.org/document/10126431', // Placeholder for your IEEE publication link 
+      link: 'https://ieeexplore.ieee.org/document/10179802', 
     },
     {
       title: 'Chef Guruji',
