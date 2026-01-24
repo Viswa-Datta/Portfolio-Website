@@ -19,7 +19,7 @@ export default function About() {
               <p className="text-xs uppercase tracking-widest text-gray-500">Completed Projects</p>
             </div>
             <div>
-              <span className="text-3xl font-bold text-primary">2</span>
+              <span className="text-3xl font-bold text-primary">4</span>
               <p className="text-xs uppercase tracking-widest text-gray-500">Years in Software</p>
             </div>
           </div>
