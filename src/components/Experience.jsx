@@ -1,13 +1,6 @@
 export default function Experience() {
   const items = [
     {
-      company: 'State of Nevada',
-      location: 'Remote (Contract)',
-      role: 'Java Full Stack Developer',
-      period: 'Jul 2025 – Present',
-      description: 'Designing scalable full-stack applications using Java 17, Spring Boot, and React.js to modernize digital infrastructure.'
-    },
-    {
       company: 'Accenture',
       location: 'Bengaluru / Hyderabad, India',
       role: 'Software Engineer (Java Developer)',
