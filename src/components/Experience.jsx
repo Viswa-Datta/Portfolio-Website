@@ -1,7 +1,7 @@
 export default function Experience() {
   const items = [
     {
-      company: 'Accenture',
+      company: 'WIPRO',
       location: 'Bengaluru / Hyderabad, India',
       role: 'Software Engineer (Java Developer)',
       period: 'Jan 2021 – Jul 2023',
